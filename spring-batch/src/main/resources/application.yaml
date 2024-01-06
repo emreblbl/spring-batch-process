@@ -1,0 +1,15 @@
+
+batch:
+  americans-file: /Users/emre.bulbul/Desktop/Uni Classess/linux-isletim-sistemi/spring-batch-process/spring-batch/src/main/resources/data/output/americans.csv
+  input-file: data/input/customers.csv
+
+
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
